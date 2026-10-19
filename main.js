@@ -3,10 +3,10 @@ function calcular() {
     var desconto = 0
 
     if (compra > 500) {
-        desconto = compra * 0.15
+        desconto = compra * 0.10
     }
     else if (compra > 100) {
-        desconto = compra * 0.10
+        desconto = compra * 0.05
     }
     else {
         desconto = 0
